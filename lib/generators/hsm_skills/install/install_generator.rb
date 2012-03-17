@@ -18,7 +18,7 @@ module HsmSkills
 
       def copy_migrations
         migration_template "create_skills.rb",       "db/migrate/create_skills.rb"
-        migration_template "create_user_skills.rb", "db/migrate/create_user_skills.rb"
+        migration_template "create_users_skills.rb", "db/migrate/create_users_skills.rb"
       end
     end
   end
